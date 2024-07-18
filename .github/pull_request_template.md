@@ -1,21 +1,26 @@
 ## Description
 
-Description of the PR..
+PR description..
 
 ## Type of Change
 
-What types of changes does your code implement?
-_Add an `x` in the option that best describes this PR_
+_Add an `x` in the box that best describes this PR_
 
-- [ ] Feature
-- [ ] Bugfix
-- [ ] Refactor
-- [ ] Tests
-- [ ] Documentation Update
+- [ ] Bugfix (fix)
+- [ ] Feature (feat)
+- [ ] Tests (test)
+- [ ] Documentation Update (docs)
+- [ ] Performance Improvement (perf)
+- [ ] Refactoring (refactor)
+- [ ] Chore (chore)
+- [ ] Build Changes (build)
+- [ ] Continuous Integration Changes (ci)
+- [ ] Reverts (revert)
+- [ ] Style Changes (style)
 
 ## Expected Results
 
-_Describe what the expected result of this implementation is, and if necessary, include examples._
+_Describe the expected result of this implementation, and if necessary, provide examples._
 
 ## How to Test
 
