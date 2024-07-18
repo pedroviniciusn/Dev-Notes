@@ -1,15 +1,15 @@
 import React from 'react';
-import {Provider} from 'react-redux';
-import {store, persistor} from './src/store';
-import {PersistGate} from 'redux-persist/lib/integration/react';
+import Routes from './src/routes';
+import {NavigationContainer} from '@react-navigation/native';
+import {AuthProvider} from './src/contexts/AuthContext';
 
 const App = () => {
   return (
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        {/* Add your navigation here */}
-      </PersistGate>
-    </Provider>
+    <NavigationContainer>
+      <AuthProvider>
+        <Routes />
+      </AuthProvider>
+    </NavigationContainer>
   );
 };
 
