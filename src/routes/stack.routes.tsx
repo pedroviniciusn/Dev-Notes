@@ -19,7 +19,14 @@ const StackRoutes = () => {
           headerShown: false,
         }}
       />
-      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen
+        name="Home"
+        component={Home}
+        options={{
+          headerTitle: 'TODO APP',
+          headerBackVisible: false,
+        }}
+      />
     </Stack.Navigator>
   );
 };
